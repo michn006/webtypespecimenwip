@@ -1,0 +1,208 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+
+}
+
+p {
+font-family: Gothic A1;
+}
+
+h1 {
+font-family: Gothic A1;
+font-size: 100px;
+}
+
+h2 {
+font-family: Gothic A1;
+text-decoration: underline;
+}
+
+h3 {
+font-family: Gothic A1;
+text-decoration: underline;
+}
+
+a {
+  font-family: Gothic A1;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #4a5563;
+  grid-auto-flow:dense;
+  grid-gap: 20px 10px;
+}
+
+.item {
+
+}
+
+.item1 {
+
+}
+
+.item2 {
+
+}
+
+.item3 {
+
+}
+
+.item4 {
+
+}
+
+.item4-1 {
+font-style: italic;
+}
+
+.item4-2 {
+color: #ec0f26;
+}
+
+.item4-3 {
+color: white;
+}
+
+.item5 {
+
+}
+
+.item6 {
+
+}
+
+.item6-1 {
+  background-color: #d9d5d5;
+}
+
+.Ex1Top {
+  transform: rotate(20deg);
+  z-index: 2;
+  position: relative;
+  color: black;
+}
+
+.Ex1Bottom {
+  color: #ec0f26;
+  position: absolute;
+}
+
+.item6-2 {
+  background-color: #d9d5d5;
+}
+
+.item6-3 {
+  background-color: #d9d5d5;
+}
+
+
+.item7 {
+
+}
+
+.item8 {
+position: fixed;
+background-color: white;
+}
+
+
+@media (max-width: 450px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #4a5563;
+    grid-auto-flow:row;
+    grid-gap: 20px 10px;
+  }
+
+  .item {
+
+  }
+
+  .item1 {
+
+  }
+
+  .item2 {
+
+  }
+
+  .item3 {
+
+  }
+
+  .item4 {
+
+  }
+
+  .item5 {
+
+  }
+
+  .item6 {
+
+  }
+
+  .item6-1 {
+    background-color: #d9d5d5;
+  }
+
+  .Ex1Top {
+    transform: rotate(20deg);
+    z-index: 2;
+    position: inherit;
+    color: black;
+  }
+
+  .Ex1Bottom {
+    color: #ec0f26;
+    position: inherit;
+  }
+
+  .item6-2 {
+    background-color: #d9d5d5;
+  }
+
+  .item7 {
+
+  }
+
+  .item8 {
+  position: fixed;
+  background-color: white;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  h1 {
+  font-family: Gothic A1;
+  font-size: 50px;
+  }
+
+}
